@@ -35,6 +35,6 @@ func main() {
 
 
 func Hello(w http.ResponseWriter, r *http.Request) {
-	data := "Hello World"
+	data := "Rest API"
 	json.NewEncoder(w).Encode(data)
 }
